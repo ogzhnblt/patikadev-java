@@ -28,7 +28,14 @@ public class NotOrtalamasi {
 
         int toplam = mat + fizik + kimya + turkce + tarih + muzik;
         double sonuc = toplam / 6.0;
+
         System.out.println("Ortalamanız : " + sonuc);
+
+        if (sonuc >= 60) {
+            System.out.println("Sınıfı Geçti");
+        } else {
+            System.out.println("Sınıfta Kaldı");
+        }
 
     }
 }
